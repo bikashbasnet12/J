@@ -8,13 +8,13 @@ public class LayoutDemo {
         Button b1 = new Button("b1");
         Button b33= new Button("b33");
 
-        f.setLayout(new BorderLayout(15,15));
-        f.add(b1,BorderLayout.EAST);
-        f.add(b2,BorderLayout.WEST);
-        f.add(b3,BorderLayout.CENTER);
-        f.add(b4,BorderLayout.NORTH);
-        f.add(b33,BorderLayout.SOUTH);
-        f.setSize(500,500);
+        f.setLayout(new GridLayout(3,2));
+        f.add(b1);
+        f.add(b2);
+        f.add(b3);
+        f.add(b4);
+        f.add(b33);
+        f.setSize(300,300);
         f.setVisible(true);
 
 
